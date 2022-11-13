@@ -17,7 +17,7 @@ if($_POST){
 	}
 	
 	else{
-		echo "<script>alert('Gagal Total')</script>";
+		echo "<script>alert('Username atau Password salah')</script>";
 	}
 }
 ?>
@@ -74,26 +74,25 @@ if($_POST){
   
     <div class="container">
 		<div class="row">
-		  <div class="col-xs-12 col-sm-8 col-md-8">&nbsp;</div>
-		  <div class="col-xs-12 col-sm-4 col-md-4">
-		  	
-		  	<div style="margin-top: 100px;" class="panel panel-default"><div class="panel-body">
-		  		<div class="text-center"><h4>Welcome !!</h4></div>
-		  		<form method="post">
-				  <div class="form-group">
-				    <label for="InputUsername1">Username</label>
-				    <input type="text" class="form-control" name="username"  id="InputUsername1" placeholder="Username">
-				  </div>
-				  <div class="form-group">
-				    <label for="InputPassword1">Password</label>
-				    <input type="password" class="form-control" name="password" id="InputPassword1" placeholder="Password">
-				  </div>
-				  <p><small style="color:#999;">Username: onny dan Password: onnycantik</small></p>
-				  <button type="submit" class="btn btn-warning">Login</button>
-				</form>
-		  	</div></div>
-		  	
-		  </div>
+			<div class="col-xs-12 col-sm-4 col-md-4">&nbsp;</div>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+				  	<div style="margin-top: 100px;" class="panel panel-default"><div class="panel-body">
+			  		<div class="text-center"><h4>Welcome !!</h4></div>
+						<form method="post">
+							<div class="form-group">
+								<label for="InputUsername1">Username</label>
+								<input type="text" class="form-control" name="username"  id="InputUsername1" placeholder="Username">
+							</div>
+							<div class="form-group">
+								<label for="InputPassword1">Password</label>
+								<input type="password" class="form-control" name="password" id="InputPassword1" placeholder="Password">
+							</div>
+							<p><small style="color:#999;">Username: onny dan Password: onnycantik</small></p>
+							<button type="submit" class="btn btn-warning">Login</button>
+						</form>
+		  			</div>
+				</div>
+		  	</div>
 		</div>
 	</div>
 
