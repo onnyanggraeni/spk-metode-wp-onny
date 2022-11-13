@@ -72,6 +72,7 @@ if($_POST){
 	  </div><!-- /.container-fluid -->
 	</nav>
   
+	<!-- /.container-fluid -->
     <div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-4 col-md-4">&nbsp;</div>
